@@ -1,4 +1,4 @@
-# trijsoft.github.io
+# trijsoft.io
 
 # Markdownerz
 
