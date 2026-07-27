@@ -1,0 +1,165 @@
+Here is a clean, modern, and responsive **`index.html`** boilerplate based on the **Markdownerz** project setup from the page:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdownerz - High-Performance Markdown Editor</title>
+    <style>
+        :root {
+            --primary-color: #2da44e;
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-color: #e6edf3;
+            --text-secondary: #8b949e;
+            --border-color: #30363d;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding: 2rem 1rem;
+            text-align: center;
+            background-color: var(--card-bg);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+
+        header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            flex: 1;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            border-color: var(--primary-color);
+        }
+
+        .card h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.25rem;
+            color: var(--primary-color);
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .contact {
+            margin-top: 3rem;
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .contact a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+    </style>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2476883399915419"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Markdownerz</h1>
+        <p>A high-performance, feature-rich Markdown editor designed for efficiency and seamless workflow.</p>
+    </header>
+
+    <main>
+        <section class="features">
+            <div class="card">
+                <h3>Real-time Preview</h3>
+                <p>See your Markdown changes rendered in real-time as you type.</p>
+            </div>
+            <div class="card">
+                <h3>GitHub-Flavored Markdown</h3>
+                <p>Comprehensive GFM support including tables, task lists, and syntax highlighting.</p>
+            </div>
+            <div class="card">
+                <h3>PDF Export</h3>
+                <p>Effortlessly convert your Markdown documents into clean, professional-looking PDFs.</p>
+            </div>
+            <div class="card">
+                <h3>Google Drive Sync</h3>
+                <p>Keep your work synchronized across all your devices securely via Google Drive.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Get In Touch</h2>
+            <p>For support, inquiries, or feedback, please contact the developer at:</p>
+            <p><a href="mailto:JJ.Drogo@gmail.com">JJ.Drogo@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with care using Jetpack Compose and Room Database.</p>
+    </footer>
+
+</body>
+</html>
+
+```
